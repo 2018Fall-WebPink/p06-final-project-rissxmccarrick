@@ -1,0 +1,79 @@
+/*
+Marissa McCarrick
+January 18, 2018
+Final Project
+/
+
+/* The universal selector */
+
+* {
+ margin: 0;
+padding: 0;
+}
+
+/* Body attributes here */
+/* this controls the background color and borders */
+body {
+    width: 80%;
+    background-color: azure;
+    margin: 15px auto;
+    border: 1px solid blue;
+}
+
+/* Controls the padding */
+h1 {
+    padding: 10px; text-align: center;
+}
+
+/* controls the border of the header */
+header {
+    border-bottom: 2px solid #0000ff;
+    background-color: aqua;
+}
+
+/* controls side bar A */
+#sidebarA {
+    width: 195px;
+    height: 800px;
+    float: left;
+    border-right: 2px solid #0000ff;
+    font-size: 120%;
+    padding: 5px;
+}
+
+/* this makes the sizes and floats */
+main {
+    width: 60%;
+    height:800px;
+    float: left;
+    padding: 20px;
+    font-size: 120%;
+}
+p4 {text-align: right;}
+
+/* determines size of picture */
+ #Eva {width: 300px; height: 200px; border: solid; margin: 7px; float: left; } 
+#Kor {width: 150px; height: 200px; border: solid; margin: 7px; }
+#EvaKor {width: 150px; height: 100px; border: solid; margin: 7px; }
+
+/* changes side bar B */
+#sidebarB {
+    width: 200px;
+    height: 800px;
+    float: right;
+    font-size: 110%;
+    border-left: 2px solid #0000ff;
+    padding: 5px;
+}
+
+ul {list-style-position: inside;}
+
+/* the footer details on the border */
+footer {
+    clear: right;
+    border-top: 2px solid #0000ff;
+    padding: 10px;
+}
+h6 {float: right;}
+
+#nofloat {clear: both;}
